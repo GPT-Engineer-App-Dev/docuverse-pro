@@ -14,7 +14,7 @@ export const Sidebar = () => {
   return (
     <aside className="bg-white w-64 h-screen shadow-md">
       <div className="p-4">
-        <h2 className="text-2xl font-bold text-gray-800">DevDocs</h2>
+        <h2 className="text-2xl font-bold text-gray-800">CodeDocs</h2>
       </div>
       <nav className="mt-6">
         {navItems.map((item, index) => (

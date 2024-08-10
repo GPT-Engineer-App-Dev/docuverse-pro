@@ -14,14 +14,14 @@ greet('Developer');
 const Index = () => {
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold text-gray-900">Welcome to DevDocs</h1>
+      <h1 className="text-3xl font-bold text-gray-900">Welcome to CodeDocs</h1>
       <p className="text-xl text-gray-600">Your comprehensive guide to modern web development.</p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card>
           <CardHeader>
             <CardTitle>Getting Started</CardTitle>
-            <CardDescription>Begin your journey with DevDocs</CardDescription>
+            <CardDescription>Begin your journey with CodeDocs</CardDescription>
           </CardHeader>
           <CardContent>
             <p className="mb-4">Learn the basics and set up your development environment.</p>
