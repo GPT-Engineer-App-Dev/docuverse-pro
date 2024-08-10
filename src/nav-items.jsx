@@ -1,5 +1,6 @@
 import { Home, Book, Code, FileText, Settings } from "lucide-react";
 import Index from "./pages/Index.jsx";
+import ApiReference from "./pages/ApiReference.jsx";
 
 export const navItems = [
   {
@@ -18,7 +19,7 @@ export const navItems = [
     title: "API Reference",
     to: "/api",
     icon: <Code className="h-4 w-4" />,
-    page: <Index />, // Replace with API component when created
+    page: <ApiReference />,
   },
   {
     title: "Examples",

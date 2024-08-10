@@ -1,6 +1,15 @@
 import React from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import CodeBlock from '../components/CodeBlock';
+
+const exampleCode = `
+function greet(name) {
+  console.log(\`Hello, \${name}!\`);
+}
+
+greet('Developer');
+`;
 
 const Index = () => {
   return (
@@ -42,6 +51,16 @@ const Index = () => {
           </CardContent>
         </Card>
       </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>Code Example</CardTitle>
+          <CardDescription>Here's a simple JavaScript function with syntax highlighting</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <CodeBlock language="javascript" code={exampleCode} />
+        </CardContent>
+      </Card>
     </div>
   );
 };
