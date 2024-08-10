@@ -8,7 +8,7 @@ function greet(name) {
   console.log(\`Hello, \${name}!\`);
 }
 
-greet('Developer');
+greet("World");
 `;
 
 const Index = () => {
